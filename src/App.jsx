@@ -3,10 +3,12 @@ import AdminPage from "./pages/admin";
 import HomePage from "./pages/home";
 import Loginpage from "./pages/login";
 import Test from "./Components/test";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
     <div className="w-full h-screen bg-primary text-secondary">
+      <Toaster position="top-center" />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/admin/*" element={<AdminPage />} />
