@@ -3,6 +3,7 @@ import { FaList } from "react-icons/fa6";
 import { MdOutlineInventory2 } from "react-icons/md";
 import { FaUsersLine } from "react-icons/fa6";
 import AdminProducts from "./admin/adminProducts";
+import AdminAddProduct from "./admin/adminAddProduct";
 
 export default function AdminPage() {
   return (
